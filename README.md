@@ -24,4 +24,4 @@ browser and connect to your application.
 
 To build a redistributable, production mode package, use `wails build`.
 
-Or build with [UPX](https://upx.github.io/) for best result: ``wails build -upx -upxflags="--best --lzma"``
+Or build with [UPX](https://upx.github.io/) for better distribution size: ``wails build -upx -upxflags="--best --lzma"``
