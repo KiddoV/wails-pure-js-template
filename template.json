@@ -1,0 +1,7 @@
+{
+  "name": "Wails Pure JavaScript Template",
+  "shortname": "wails-pure-js-template",
+  "author": "KiddoV",
+  "description": "This is a wails template without any front-end frameworks. You have to build everything from scratch.",
+  "helpurl": ""
+}
