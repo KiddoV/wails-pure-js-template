@@ -1,17 +1,17 @@
 ## About
 
-This is an extremely straightforward Wails template, comprising essential web components (HTML, CSS, JS) and intentionally lacking any front-end frameworks, dependencies, or Node package management. As a result, you'll end up with an exceptionally lightweight source folder (1 - 5MB). 
-That being said, this is a good template for something like a ``Hello World`` application, which doesn't require you to store ~200-300MB of source files.
+This is an extremely straightforward Wails template, comprising essential web components (HTML, CSS, JS) and intentionally lacking any front-end frameworks, dependencies, or Node package management. 
+As a result, you'll end up with an exceptionally lightweight source folder (1 - 5MB).
 
-You'll need to construct everything from the ground up. Good luck!
+That being said, this is a good template for something like a ``Hello World`` application, which doesn't require you to store ~200-300MB of source files.
 
 ## Instruction
 
 1. Do all the setup/ installation for [Wails](https://wails.io/docs/gettingstarted/installation).
 2. Open command prompt on your desire directory.
-3. ``$> wails init -n [your-app-name] -t https://github.com/KiddoV/wails-pure-js-template``
-4. ``$> cd ./[your-app-name]``
-5. ``$> wails dev``
+3. ``> wails init -n [your-app-name] -t https://github.com/KiddoV/wails-pure-js-template``
+4. ``> cd ./[your-app-name]``
+5. ``> wails dev``
 6. Keep developing...
 
 ## Live Development
@@ -34,7 +34,9 @@ To use ``UPX``, you need to download and at least put the path in the ``System E
 You don't have to rely on ``npm`` to add dependencies.
 
 If your application requires internet access, you can add dependencies via a ``CDN`` links.
+
 If your application is used offline, simply download dependencies and save them in the ``src/libs`` folder, then import them in the index.html file.
+
 E.g.
 ```html
 <script src="../libs/jquery/jquery-3.7.1.js"></script>
